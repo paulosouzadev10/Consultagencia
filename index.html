@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./componentes/hero.css" />
     <link rel="stylesheet" href="./componentes/main.css" />
     <link rel="stylesheet" href="./componentes/footer.css" />
-   
+
 
 
 
@@ -24,50 +24,54 @@
 
     <!-- Header -->
     <header class="header">
-        <h1 class="logo"></h1>
-        <a class="logo-img" href="/" title="Agência de Turismo"><img src="./src./imagens./Logo./logo.png-removebg-preview.png"alt="Consult Viagens"></a>
-
-        
+    <div class="header__container">
+        <a href="/" class="logo" title="Agência de Turismo">
+            <img src="./Imagens/Logo/logo.png-removebg-preview.png" alt="Consult Viagens" class="logo-img">
+        </a>
 
         <nav class="header__nav">
-            <ul>
+            <ul class="header__menu-list">
                 <li><a href="quem-somos" target="_blank" class="header-menu">Quem somos</a></li>
                 <li><a href="pacotes" target="_blank" class="header-menu">Pacotes</a></li>
                 <li><a href="ofertas" target="_blank" class="header-menu">Ofertas</a></li>
             </ul>
         </nav>
-    </header>
+    </div>
+</header>
 
     <!-- Hero -->
     <section class="hero-section">
+    <div class="hero-content">
+        <h1>Explore o mundo com a Consult Viagens</h1>
+        <p>Os melhores pacotes para Porto de Galinhas, Noronha e muito mais.</p>
+        <a href="#destinos" class="btn-hero">Ver Destinos</a>
+    </div>
+</section>
 
+<main>
+    <section id="destinos" class="categorias-destinos">
+        <div class="categoria-card porto">
+            <a href="#" class="categorias-link">
+                <span class="categorias-name">Porto de Galinhas</span>
+            </a>
+        </div>
+        <div class="categoria-card noronha">
+            <a href="#" class="categorias-link">
+                <span class="categorias-name">Fernando de Noronha</span>
+            </a>
+        </div>
+        <div class="categoria-card chile">
+            <a href="#" class="categorias-link">
+                <span class="categorias-name">Chile</span>
+            </a>
+        </div>
+        <div class="categoria-card argentina">
+            <a href="#" class="categorias-link">
+                <span class="categorias-name">Argentina</span>
+            </a>
+        </div>
     </section>
-
-    <main>
-        <!-- Destinos -->
-        <section class="categorias-destinos">
-            <div class="categoria-card porto">
-                <a href="#" class="categorias-link">
-                    <span class="categorias-name">Porto de Galinhas</span>
-                </a>
-            </div>
-            <div class="categoria-card noronha">
-                <a href="#" class="categorias-link">
-                    <span class="categorias-name">Fernando de Noronha</span>
-                </a>
-            </div>
-            <div class="categoria-card chile">
-                <a href="#" class="categorias-link">
-                    <span class="categorias-name">Chile</span>
-                </a>
-            </div>
-            <div class="categoria-card argentina">
-                <a href="#" class="categorias-link">
-                    <span class="categorias-name">Argentina</span>
-                </a>
-            </div>
-        </section>
-    </main>
+</main>
 
     <!-- Pacotes -->
     <section class="packages">
@@ -93,46 +97,24 @@
 
 
     <!-- Footer -->
-    <footer class="footer">
-        <h1 class="footer-titulo">Siga-nos:</h1>
-        <div class="footer-social">
-            <ul>
-                <li><a href="https://www.instagram.com/consulte_viagens?igsh=Y2FxZG52Z3Y5aTlv"><img
-                            src="Imagens/icon/Instagram.png" alt="Instagram"></a>Instagram</li>
-                <li><a href="#"><img src="Imagens/icon/facebook.png" alt="Facebook"></a>Fecebook</li>
-                <li><a href="https://wa.me/5581993954817"><img src="Imagens/icon/whatsapp.png"
-                            alt="whatsapp"></a>whatsapp</li>
+    <footer>
+        <div class="footer-container">
+            <div class="social-links">
+                <p>Siga-nos</p>
+                <a href="#" title="Instagram"><img src="./Imagens/icon/Instagram.png" class="fab fa-instagram"></a>
+                <a href="#" title="Whatsapp"><img src="./Imagens/icon/whatsapp.png" class="fab fa-Whatsapp-in"></a>
+                <a href="#" title="Facebook"><img src="./Imagens/icon/facebook.png" class="fab fa-facebook-f"></a>
+            </div>
 
-            </ul>
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> contato@seusite.com.br</p>
+                <p><i class="fas fa-phone-alt"></i> (11) 99999-9999</p>
+            </div>
 
-
+            <div class="copy">
+                &copy; 2026 ConsulViagens. Todos os direitos reservados.
+            </div>
         </div>
-
-        <div class="contatos">
-            <address class="contact__info">
-                <p>Atendimento:</p>
-                E-mail:
-                <a href="mailto:contato@consulteviagens.com.br">
-                    contato@consulteviagens.com.br
-                </a>
-                </p>
-
-                <p>
-                    Telefone:
-                    <a href="tel:+55(81)99395-4817
-                    </a>">
-                        (81)99395-4817
-                    </a>
-                </p>
-
-                <p>Horário das 08:00 às 18:00</p>
-
-
-
-            </address>
-
-        </div>
-
     </footer>
 
 </body>
